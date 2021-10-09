@@ -1,0 +1,540 @@
+* {
+    box-sizing: border-box;
+}
+
+.fundo {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+/* MY NAME IS CALVIN */
+
+body {
+    background: #ff9063;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-right: 750px;
+    margin-left: -30px;
+}
+
+#calvino {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    margin-left: 75px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.digital {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 27px;
+    color: white;
+    margin-right: 220px;
+    margin-top: -290px;
+    float: right;
+}
+
+.digital p {
+    color: #000000;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+.details h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    margin-left: 90px;
+}
+
+.details li{
+    margin-left: 40px;
+    font-size: 25px;
+    margin-top: -10px;
+    float: left;
+}
+
+.details2 h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    margin-left: 290px;
+
+}
+
+.details2 li{
+    padding: 0;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.details3 h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    margin-left: 320px;
+    float: right;
+
+}
+
+.details3 li {
+    padding: 0;
+    font-size: 25px;
+    margin-left: 240px;
+}
+
+div.informations {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 100px;
+    margin-right: 160px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email {
+    float: right;
+    margin-top: -60px;
+    margin-right: 81px;
+}
+
+button {
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    border: solid #ffffff 1px;
+    background-color: #ff9063;
+}
+
+header {
+    width: 290px;
+    height: 290px;
+    border-radius: 500px;
+    background-image: url("https://cdn.pixabay.com/photo/2021/09/15/12/34/woman-6626742_960_720.jpg");
+    background-size: cover;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+article {
+    width: 325px;
+    height: 320px;
+    border-radius: 500px;
+    border: solid #ffffff;
+    padding: 10px;
+    margin-left: 85px;
+    margin-top: 235px;
+}
+
+
+button.talk {
+    font-family:"Roboto Condensed",sans-serif;
+    font-size: 17px;
+    margin-top: -2px;
+    margin-right: 72px;
+    color: #ffffff;
+    width: 155px;
+    height: 50px;
+    background-color: #ff9063;
+    float: right;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    margin-top: -240px;
+    background-color: #ff9063;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    border-bottom: #ffffff solid 2px;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#lista {
+    list-style: none;
+    margin-left: -55px;
+    margin-top: 18px;
+    font-size: 17px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+/* MY EXPERTIES */
+
+.my {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+#expert {
+    background: lightgray;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 290px 290px;
+    gap: 1px;
+    margin-left: 90px;
+}
+
+.strat {
+    background: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.strat:hover {
+    box-shadow: 1px 1px 10px 1px lightgray;
+}
+
+.expertie-svg {
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.expert-p {
+    color: #ff9063;
+}
+
+div.experties {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin-top: 150px;
+    background-color: #fff;
+}
+
+/* WORKS */
+
+.works {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+section.images-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img.image {
+    width: 550px;
+    height: 350px;
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+}
+
+div.works {
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+#more {
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: 590px;
+    width: 170px;
+    color: #ff9063;
+    height: 50px;
+    border: solid #ff9063 1.5px;
+    background: #ffffff;
+    font-weight: bold;
+}
+
+/* ABOUT */
+
+.square {
+    background: #f2f2f2;
+    margin-top: 90px;
+    width: 1100px;
+    height: 670px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+
+#about {
+    margin-top: -600px;
+    margin-left: 70px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.user-about p {
+    margin-left: -80px;
+}
+
+.about-me {
+    font-size: 40px;
+    margin-left: -5px;
+}
+
+.about-h3 {
+    color: #ff9063;
+}
+
+.user {
+    float: right;
+    margin-top: -180px;
+    margin-right: 150px;
+}
+
+.user-about {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+/* TESTIMONIAL */
+
+
+#testimonial {
+    margin-top: 240px;
+    text-align: center;
+}
+
+#testimonial h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    margin-top: -60px;
+    margin-left: 5px;
+}
+
+.square-testimonial {
+    position: relative;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 200px;
+    background: #faf9f7;
+    width: 900px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.square-testimonial img{
+    margin-right: 140px;
+}
+
+.jacson {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #ff9063;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.designer {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+/* LATEST NEWS */
+
+
+#latest {
+    padding: 10px;
+    background: #ffffff;
+    margin-top: 100px;
+}
+
+#latest h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    margin-top: -20px;
+    margin-left: 60px;
+}
+
+.latest-images section {
+    margin-right: 25px;
+}
+
+.latest-images {
+    display: flex;
+    justify-content: center;
+}
+
+.text-latest p {
+    margin-top: -25px;
+    margin-left: 18px;
+    font-weight: bold;
+}
+
+.text-latest h2 {
+     margin-left: 30px;
+}
+
+img.news {
+    width: 580px;
+    height: 390px;
+    border-radius: 25px;
+}
+
+.text-latest {
+    margin-top: -90px;
+    color: #ffffff;
+    padding-left: 10px;
+    width: 350px;
+    font-size: 12px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button{
+    margin-top: -30px;
+    margin-left: 30px;
+    width: 65px;
+    height: 30px;
+}
+
+.tips {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    border: #ff9063 solid 1px;
+}
+
+.text-latest p {
+    font-size: 20px;
+}
+
+.text-latest h3 {
+    font-size: 17px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 30px;
+    color: #ffffff;
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+.rodape {
+    width: 100%;
+    height: 300px;
+}
+
+.rodape h3 {
+    margin-top: -20px;
+}
+
+.rodape p {
+    margin-bottom: -70px;
+}
+
+.calvino-footer {
+    color: #ff9063;
+    margin-left: 50px;
+}
+
+.h3-footer {
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+section.button-footer {
+    margin-left: 850px;
+    margin-top: -90px;
+}
+
+.download {
+    color: #ffffff;
+    border-radius: #ffffff;
+    background-color: #000000;
+    margin-right: 20px;
+    width: 180px;
+}
+
+.talk-rodape {
+    border: #ff9063;
+    width: 180px;
+    color: white;
+    font-weight: bold;
+}
+
+.copyright {
+    margin-top: 190px;
+    margin-left: 50px;
+}
+
+.menu-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin-top: -4px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-2 a:hover {
+    text-decoration: none;
+    border-bottom: #ffffff solid 2px;
+    color: #ffffff;
+}
+
+.menu-2 li {
+    margin-bottom: -60px;
+}
+
+#lista-2 {
+    list-style: none;
+    margin-left: 800px;
+    margin-bottom: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 10px;
+}
